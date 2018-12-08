@@ -14,16 +14,6 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := FprintTest
-LOCAL_MODULE_OWNER := UleFone
-LOCAL_SRC_FILES := proprietary/app/FprintTest/FprintTest.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := platform
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libdpframework
 LOCAL_MODULE_OWNER := MediaTek
 LOCAL_SRC_FILES_64 := proprietary/lib64/libdpframework.so
