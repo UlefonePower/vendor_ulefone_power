@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/power/proprietary/bin/tiny_swapoff:system/bin/tiny_swapoff \
     vendor/ulefone/power/proprietary/bin/tiny_swapon:system/bin/tiny_swapon \
     vendor/ulefone/power/proprietary/bin/tiny_mkswap:system/bin/tiny_mkswap \
-    vendor/ulefone/power/proprietary/bin/qmcX983d:system/bin/qmcX983d \
     vendor/ulefone/power/proprietary/bin/em_svr:system/bin/em_svr \
     vendor/ulefone/power/proprietary/xbin/mnld:system/xbin/mnld \
     vendor/ulefone/power/proprietary/bin/mtkrildmd2:system/bin/mtkrildmd2 \
@@ -40,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/power/proprietary/bin/akmd09911:system/bin/akmd09911 \
     vendor/ulefone/power/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
     vendor/ulefone/power/proprietary/bin/mc6470d:system/bin/mc6470d \
+	vendor/ulefone/power/proprietary/bin/bstd:system/bin/bstd \
     vendor/ulefone/power/proprietary/bin/wmt_loader:system/bin/wmt_loader \
     vendor/ulefone/power/proprietary/bin/md_ctrl:system/bin/md_ctrl \
     vendor/ulefone/power/proprietary/bin/gsm0710muxd:system/bin/gsm0710muxd \
@@ -51,6 +51,8 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/power/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/ulefone/power/proprietary/bin/6620_launcher:system/bin/6620_launcher \
     vendor/ulefone/power/proprietary/bin/ami304d:system/bin/ami304d \
+	vendor/ulefone/power/proprietary/bin/mc6420d:system/bin/mc6420d \
+	vendor/ulefone/power/proprietary/bin/AcdApiDaemon:system/bin/AcdApiDaemon \
     vendor/ulefone/power/proprietary/bin/wifi2agps:system/bin/wifi2agps \
     vendor/ulefone/power/proprietary/bin/memsicd:system/bin/memsicd \
     vendor/ulefone/power/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
